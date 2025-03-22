@@ -1,4 +1,4 @@
-/* propiedades personalizadas*/
+/* Propiedades Personalizadas*/
 :root{
 --blanco: #fff;
 --black: #000;
@@ -8,7 +8,7 @@
 --grisclaro: #dfe9f3;
 }
 
-/*global*/
+/*Global*/
 html{
     font-size: 62.5%;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ font-size: 1.6rem; /*1 rem = 10 pixeles*/
 font-family: 'krub', sans-serif;
 }
 
-/* tipografia*/
+/* Tipografia*/
 h1{
     font-size: 3.8rem;
 }
@@ -69,12 +69,12 @@ h1,h2,h3{
 }
 
 
-/*titulo*/
+/*Titulo*/
 .titulo span{
   font-size: 2rem;
 }
 
-/*navegacion*/
+/*Navegacion*/
 .nav-bg{
     background-color: var(--secundario);
 }
@@ -106,7 +106,7 @@ h1,h2,h3{
     color: var(--negro);
 }
 
-/*imagen (baner de la pg)*/
+/*Imagen Banner*/
 .hero{
     background-image: url(../Img/title.jpg);
     background-repeat: no-repeat;
