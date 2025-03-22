@@ -146,9 +146,18 @@ h1,h2,h3{
     border: 1px solid var(--gris-oscuro);
     border-radius: 0.5rem;
     font-size: 1rem;
+    background-color: var(--gris-claro);
+    color: var(--negro);
+}
+
+/* Color del placeholder */
+.Formulario input::placeholder,
+.Formulario textarea::placeholder {
+    color: var(--gris-oscuro); 
 }
 
 .Formulario textarea {
     height: 10rem;
     resize: none;
 }
+
