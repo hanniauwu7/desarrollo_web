@@ -143,17 +143,12 @@ h1,h2,h3{
     width: 100%;
     padding: 1rem;
     margin-top: 0.5rem;
-    border: 1px solid var(--gris-oscuro);
+    border: 2px solid #4a4a4a;
     border-radius: 0.5rem;
     font-size: 1rem;
-    background-color: var(--gris-claro);
-    color: var(--negro);
-}
-
-/* Color del placeholder */
-.Formulario input::placeholder,
-.Formulario textarea::placeholder {
-    color: var(--gris-oscuro); 
+    background-color: white;
+    color: black;
+    outline: none;
 }
 
 .Formulario textarea {
